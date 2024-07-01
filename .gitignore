@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución de paquetes
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuración del entorno
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Configuración del editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de salida de pytest
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+
+# Archivos de log y bases de datos locales
+*.log
+*.sqlite3
+
+# Archivos creados por Black
+*.pyi
+
+# Archivos de configuración de pre-commit
+.pre-commit-config.yaml
+.pre-commit-hooks.yaml
+
+# Archivos de despliegue
+*.pem
+*.key
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Archivos de migración
+migrations/
+*/*/migrations/*.py
+*/*/migrations/*.pyc
+
+# Archivos de caché
+*.cache
+*.dat
+*.db
+
+# Documentación generada
+docs/_build/
+
+# Archivos de seguridad
+*.pem
+
+# Directorios y archivos creados por build tools
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Configuración del servidor
+*.pid
+*.sock
+
+# Archivos estáticos y medios
+staticfiles/
+media/
+
+# Archivos de pipenv y poetry
+Pipfile.lock
+poetry.lock
